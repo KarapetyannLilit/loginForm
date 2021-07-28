@@ -1,28 +1,29 @@
 body{
   background-color:#cac8f1;
   margin:0 auto;
+  position: center;
   padding:0px;
   text-align:center;
-  width:100%;
+  /* width:100%; */
 }
 #wrapper
 {
  margin:0 auto;
  padding:0px;
  text-align:center;
- width:995px;
+ /* width:995px; */
 }
 .form_div{
-    display: block;
+    /* display: block; */
     border-radius: 15px;
     position: center; 
     overflow: auto;
     background-color: white;
     padding-top: 20px;
-    /* margin: 5% auto 15% auto;  */
+    margin: 5% auto 15% auto; 
     border: 1px solid #888;
-    width: 300px;
-    height: 40%;
+    width: 350px;
+    /* height: 40%; */
     transform: translate(0, 20%);
     box-shadow: 10px 10px 8px #888888;
 
@@ -56,8 +57,9 @@ input[type=text], input[type=password], input[type=email]{
 }
 .img{
     background-color: lavender;
-    width: 20%;
-    border-radius: 60%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
 .login,.signup {
     height: 40px;
