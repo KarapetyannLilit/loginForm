@@ -157,7 +157,8 @@ input[type=text], input[type=password], input[type=email]{
   {
   width:60%;
   margin-left:20%;
-  margin-top: -15%;
+  margin-top: -25%;
+  margin-bottom: 15%;
   }
   input[type=text], input[type=password], input[type=email], .status
   {
@@ -182,7 +183,8 @@ input[type=text], input[type=password], input[type=email]{
   {
   width:90%;
   margin-left:5%;
-  margin-top: -15%;
+  margin-top: -25%;
+  margin-bottom: 15%;
   padding-left:0px;
   padding-right:0px;
   }
