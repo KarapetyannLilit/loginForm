@@ -1,8 +1,8 @@
 body{
   background-color:#cac8f1;
-  margin:0 auto;
+  /* margin:0 auto; */
   position: center;
-  padding:0px;
+  /* padding:0px; */
   text-align:center;
   /* width:100%; */
 }
@@ -15,17 +15,18 @@ body{
 }
 .form_div{
     /* display: block; */
+    margin-top: 50px;
     border-radius: 15px;
     position: center; 
     overflow: auto;
-    background-color: white;
-    padding-top: 20px;
-    margin: 5% auto 15% auto; 
+    background-color: rgb(255, 255, 255);
+    padding-top: 15px;
+    margin: 0% auto 0% auto; 
     border: 1px solid #888;
     width: 350px;
     /* height: 40%; */
     transform: translate(0, 20%);
-    box-shadow: 10px 10px 8px #888888;
+    box-shadow: 5px 5px 2px #888888;
 
 }
 .text{
