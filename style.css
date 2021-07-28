@@ -1,0 +1,208 @@
+body{
+  background-color:#cac8f1;
+  margin:0 auto;
+  padding:0px;
+  text-align:center;
+  width:100%;
+}
+#wrapper
+{
+ margin:0 auto;
+ padding:0px;
+ text-align:center;
+ width:995px;
+}
+.form_div{
+    display: block;
+    border-radius: 15px;
+    position: center; 
+    overflow: auto;
+    background-color: white;
+    padding-top: 20px;
+    /* margin: 5% auto 15% auto;  */
+    border: 1px solid #888;
+    width: 300px;
+    height: 40%;
+    transform: translate(0, 20%);
+    box-shadow: 10px 10px 8px #888888;
+
+}
+.text{
+    font-size: 30px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+.container{
+    padding: 10px;
+}
+input[type=text], input[type=password], input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: lavender;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+#image{
+    text-align: center;
+    margin: 0px 0 15px 0;
+    position: relative;
+}
+.img{
+    background-color: lavender;
+    width: 20%;
+    border-radius: 60%;
+}
+.login,.signup {
+    height: 40px;
+    border-radius: 400px;
+    background-color: rgb(127, 109, 206);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding: 0px 0px;
+    margin: 8px 0;
+}
+
+.login:hover,.signup:hover {
+    opacity: 0.8;
+    background-color: RoyalBlue;
+
+}
+
+
+.btn{ 
+    width: 40px; 
+    height: 40px; 
+    padding: 2px 0px; 
+    border-radius: 25px; 
+    font-size: 14px; 
+    text-align: center;
+    cursor: pointer;
+    border:lightblue;
+    margin: 8px;
+    background-color: lavender;
+    color: white;
+}
+
+#facebook:hover{
+    background-color: #4267B2;
+
+}
+
+#google:hover{
+    background:linear-gradient(-120DEG, #4285f4,#34a853,#fbbc05,#ea4335);
+
+}
+
+#twitter:hover{
+    background-color: #1DA1F2;
+
+}
+
+
+
+.status {
+    font-size: 10px;
+    color: red;
+    display:block;
+    float:inline-start;
+    /* width: 100%; */
+    text-align: center;
+    align-items: center;
+    padding: 0px 30px;
+    /* margin: 8px 0; */
+
+}
+
+  
+  @media only screen and (min-width:700px) and (max-width:995px)
+  {
+  #wrapper
+  {
+  width:100%;
+  }
+  #wrapper h1
+  {
+  font-size:30px;
+  }
+  .form_div
+  {
+  width:50%;
+  margin-left:25%;
+  padding-left:0px;
+  padding-right:0px;
+  }
+  input[type=text], input[type=password], input[type=email], .status
+  {
+  width:80%;
+  }
+  .form_div textarea
+  {
+  width:80%;
+  }
+  .login,.signup
+  {
+  width:80%;
+  }
+  }
+  @media only screen and (min-width:400px) and (max-width:699px)
+  {
+  #wrapper
+  {
+  width:100%;
+  }
+  #wrapper h1
+  {
+  font-size:30px;
+  }
+  .form_div
+  {
+  width:60%;
+  margin-left:20%;
+  }
+  input[type=text], input[type=password], input[type=email], .status
+  {
+  width:80%;
+  }
+  .login,.signup
+  {
+  width:80%;
+  }
+  }
+  @media only screen and (min-width:100px) and (max-width:399px)
+  {
+  #wrapper
+  {
+  width:100%;
+  }
+  #wrapper h1
+  {
+  font-size:25px;
+  }
+  .form_div
+  {
+  width:90%;
+  margin-left:5%;
+  padding-left:0px;
+  padding-right:0px;
+  }
+  input[type=text], input[type=password], input[type=email], .status
+  {
+  width:80%;
+  }
+  .login,.signup
+  {
+  width:80%;
+  }
+  }

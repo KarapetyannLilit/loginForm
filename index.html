@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+  <div class="form_div">
+    <div class="image">
+      <img class="img" src="./img/userIcon.png">
+    </div>
+    <div class="container">
+
+      <div class="text">Sign In</div>
+
+      <div id="accountError" class="status"></div> <br>
+      <input id="name" class="name" type="text" placeholder="Username" name="uname" required> <br>
+      <div id="nameError" class="status"></div> <br>
+      <input id="password" class="password" type="password" placeholder="Password" name="password" required> <br>
+      <div id="passwordError" class="status"></div> <br>
+      <button class="login" type="submit" onclick="checkLogin()">Sign In</button>
+
+      <div>
+        <p>Not a member? <a id="signup" href="./index1.html">Sign Up</a> </p>
+
+
+        <!-- <a id="btn" href="https://www.facebook.com/">
+            <img id="iconImg" src="./img/facebook.png">
+          </a>
+
+          <a id="btn" href="https://www.google.com/">
+            <img id="iconImg" src="./img/google.png">
+          </a>
+
+          <a id="btn" href="https://www.twitter.com/">
+            <img id="iconImg" src="./img/twitter.png" >
+          </a>
+
+          <button class="btn"><i class="fa fa-facebook"></i></button>
+          <button class="btn"><i class="fa fa-google"></i></button>
+          <button class="btn"><i class="fa fa-twitter"></i></button> -->
+
+        <div id="btn" class="text-center">
+          <button onclick="location.href= 'https://www.facebook.com/' "  class="btn" id="facebook"><i class="fa fa-facebook"></i></button>
+          <button onclick="location.href= 'https://www.google.com/' " class="btn" id="google"><i class="fa fa-google"></i></button>
+          <button onclick="location.href= 'https://www.twitter.com/' "  class="btn" id="twitter"><i class="fa fa-twitter"></i></button>
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
