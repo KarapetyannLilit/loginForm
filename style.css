@@ -1,22 +1,12 @@
 
 body{
-    font-family: "Avenir Next Condensed Medium", Calibri, "Gill Sans", sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   background-color:#cac8f1;
-  /* margin:0 auto; */
   position: center;
-  /* padding:0px; */
   text-align:center;
-  /* width:100%; */
 }
-#wrapper
-{
- margin:0 auto;
- padding:0px;
- text-align:center;
- /* width:995px; */
-}
+
 .form_div{
-    /* display: block; */
     margin-top: 50px;
     border-radius: 15px;
     position: center; 
@@ -33,6 +23,7 @@ body{
 }
 .text{
     font-size: 30px;
+    /* font-family: 'Courzier New', Courier, monospace; */
     float: left;
     width: 100%;
     text-align: center;
@@ -81,14 +72,11 @@ input[type=text], input[type=password], input[type=email]{
     padding: 0px 0px;
     margin: 8px 0;
 }
-
 .login:hover,.signup:hover {
     opacity: 0.8;
     background-color: rgb(141, 109, 206);
 
 }
-
-
 .btn{ 
     width: 40px; 
     height: 40px; 
@@ -102,39 +90,28 @@ input[type=text], input[type=password], input[type=email]{
     background-color: lavender;
     color: white;
 }
-
 #facebook:hover{
     background-color: #4267B2;
-
 }
-
 #google:hover{
     background:linear-gradient(-120DEG, #4285f4,#34a853,#fbbc05,#ea4335);
-
 }
 
 #twitter:hover{
     background-color: #1DA1F2;
-
 }
-
-
-
 .status {
     font-size: 10px;
     color: red;
     display:block;
     float:inline-start;
-    /* width: 100%; */
     text-align: center;
     align-items: center;
     padding: 0px 30px;
     /* margin: 8px 0; */
-
 }
 
-  
-  @media only screen and (min-width:700px) and (max-width:995px)
+@media only screen and (min-width:700px) and (max-width:995px)
   {
   #wrapper
   {
@@ -163,8 +140,8 @@ input[type=text], input[type=password], input[type=email]{
   {
   width:80%;
   }
-  }
-  @media only screen and (min-width:400px) and (max-width:699px)
+}
+@media only screen and (min-width:400px) and (max-width:699px)
   {
   #wrapper
   {
@@ -187,8 +164,8 @@ input[type=text], input[type=password], input[type=email]{
   {
   width:80%;
   }
-  }
-  @media only screen and (min-width:100px) and (max-width:399px)
+}
+@media only screen and (min-width:100px) and (max-width:399px)
   {
   #wrapper
   {
@@ -213,4 +190,4 @@ input[type=text], input[type=password], input[type=email]{
   {
   width:80%;
   }
-  }
+}
